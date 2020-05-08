@@ -1,6 +1,7 @@
 colorscheme Nord
 syntax on
 set nu
+set noshowmatch
 set clipboard=unnamed
 if has('mouse')
    set mouse=a
