@@ -15,3 +15,4 @@ autocmd filetype cpp nnoremap <F7> :AsyncRun -mode=term  ! %:p:r.out<Enter>
 autocmd filetype json nnoremap <F6> :%!python -m json.tool<Enter>
 autocmd filetype java nnoremap <F6> :AsyncRun -mode=term ! javac %:p:r.java<Enter>
 autocmd filetype java  nnoremap <F7> :AsyncRun -mode=term ! java %:t:r<Enter>
+autocmd filetype plantuml  nnoremap <F7> :PlantumlOpen<Enter>
